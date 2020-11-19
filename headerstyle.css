@@ -1,0 +1,40 @@
+.name-header {
+    background-color: rgb(47, 92, 92);
+}
+
+.nav-object-padding {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.rm-padding {
+    padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .name-header {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .m-auto-sm {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-sm-center {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .name-header {
+        margin-left: 5%;
+    }
+
+    .ml-auto-lg {
+        margin-left: auto;
+    }
+}
