@@ -62,7 +62,7 @@ p {
 
 @media screen and (min-width: 768px) {
     img {
-        width: 50%;
+        width: 25%;
         float: left;
     }
 }
