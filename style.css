@@ -11,6 +11,21 @@ body {
     margin-bottom: 20px;
 }
 
+.project-card.bg1 {
+    background: url("Social-Media-Graphic.jpg") !important;
+    background-size: contain !important;
+}
+
+.project-card.bg2 {
+    background: url("Rock-Paper-Scissors.png") !important;
+    background-size: cover !important;
+}
+
+.project-card.bg3 {
+    background: url("Logbook.png") !important;
+    background-size: cover !important;
+}
+
 .card-label {
     width: 100%;
     background-color: grey;
