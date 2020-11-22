@@ -2,6 +2,30 @@ body {
     background-color: gray;
 }
 
+.project-card {
+    background: url("https://via.placeholder.com/350");
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card-label {
+    width: 100%;
+    background-color: grey;
+    position: relative;
+    top: 75%;
+    text-align: center;
+    height: 20%;
+}
+
+.card-label p {
+    color: white;
+    font-size: large;
+    margin: auto;
+}
+
 img {
     padding: 20px;
 }
