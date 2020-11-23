@@ -1,6 +1,10 @@
 /* General styling that will be applied website wide */
 
 /* Set the background color of the site body*/
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
 body {
     background-color: gray;
 }
