@@ -1,74 +1,26 @@
+/* General styling that will be applied website wide */
+
+/* Set the background color of the site body*/
 body {
     background-color: gray;
 }
 
-.project-card {
-    max-width: 350px;
-    width: 100%;
-    height: 350px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.project-card.bg1 {
-    background: url("assets/SocialMedia.jpg") !important;
-    background-size: contain !important;
-}
-
-.project-card.bg2 {
-    background: url("assets/RPS.png") !important;
-    background-size: cover !important;
-}
-
-.project-card.bg3 {
-    background: url("assets/Logbook.png") !important;
-    background-size: cover !important;
-}
-
-.card-label {
-    width: 100%;
-    background-color: grey;
-    position: relative;
-    top: 75%;
-    text-align: center;
-    height: 20%;
-}
-
-.card-label p {
-    color: white;
-    font-size: large;
-    margin: auto;
-}
-
-img {
-    padding: 20px;
-}
-
-p {
-    padding: 20px;
-    font-size: x-large;
-}
-
+/* Give the containers for the contents of each page a white background and a little bit of margin to seperate it from the header and footer */
 .content-container {
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    box-shadow: 0 0 6pt 5pt rgb(78, 78, 78);
+    border-radius: 5pt;
 }
 
+/* Give the title of the page some padding so it aligns with the other content */
 .page-title {
     padding: 20px;
 }
 
-@media screen and (min-width: 768px) {
-    img {
-        width: 25%;
-        float: left;
-    }
-}
-
-@media screen and (max-width: 768px) { 
-    img {
-        width: 100%;
-        float: initial;
-    }
+/* Used to give certain components a shadow */
+.shadow {
+    box-shadow: 0 0 6pt 5pt rgb(78, 78, 78) !important;
 }

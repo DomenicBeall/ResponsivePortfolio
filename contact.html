@@ -14,7 +14,7 @@
     </head>
     <body>
         <!-- Navbars -->
-        <div class="row no-gutters">
+        <div class="row no-gutters shadow">
 
             <!-- Title navbar displaying my name-->
             <div class="col-md-6">
@@ -42,30 +42,39 @@
 
         </div> 
 
-        <!-- About Me -->
+        <!-- Contact Form Content Container -->
         <div class="container content-container">
+
             <div class="row txt-sm-center">
                 <div class="col-12 page-title"><h1>Contact</h1> <hr></div>
             </div>
+
             <form style="padding-bottom: 20px;">
+                <!-- Name input field -->
                 <div class="form-group">
                     <label for="nameText">Name</label>
                     <textarea class="form-control" id="nameText" rows="1"></textarea>
-                  </div>
+                </div>
+
+                <!-- Email address input field -->
                 <div class="form-group">
                   <label for="inputEmail">Email address</label>
                   <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
+
+                <!-- Message input field -->
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="messageTextArea">Message</label>
+                    <textarea class="form-control" id="messageTextArea" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+
         </div>
 
         <!-- Footer -->
-        <footer class="page-footer font-small">
+        <footer class="page-footer font-small shadow">
             <div class="footer-copyright text-center py-3">© 2020 Copyright: Domenic Beall</div>
         </footer>
 

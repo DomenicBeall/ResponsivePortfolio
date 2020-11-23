@@ -51,6 +51,7 @@ footer, .navbar, .nav-link {
 
 /* This media query updates objects when the resolution is above the low breakpoint */
 @media screen and (min-width: 768px) {
+    /* Offset the header from the side of the navbar by a small amount */
     .name-header {
         margin-left: 5%;
     }
